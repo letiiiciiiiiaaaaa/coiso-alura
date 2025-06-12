@@ -61,6 +61,4 @@ body{
 .container__titulo{
     font-size: 28px;
     font-weight: 700;
-    background-color: transparent;
-    border: 2px solid var(--branco-principal);
 }
