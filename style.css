@@ -23,7 +23,7 @@ body{
 
 
 .principal{
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -49,9 +49,21 @@ body{
 }
 
 
+.container__botao:hover{
+    background-color:#004aa4;
+    color: var(--cor-de-fundo);
+}
+
+
 .botao_secundario{
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal);
+}
+
+
+.botao_secundario:hover{
+    background-color: #004aa4;
+    border: 2px solid #004aa4;
 }
 
 
@@ -175,7 +187,3 @@ body{
 }
 
 
-.container__botao:hover{
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
-}
