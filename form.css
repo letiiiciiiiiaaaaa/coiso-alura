@@ -23,6 +23,7 @@
     color: #ffffff;
     text-align: center;
     padding-right: 55%;
+    font-size: small;
 }
 
 
@@ -66,6 +67,19 @@ input, select, textarea, button{
 
 .campo{
     margin-bottom: 1em;
+}
+
+
+.campo p{
+    color: #5d6772;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+
+#mod:hover{
+    text-decoration: underline;
+    color: #0057c1;
 }
 
 
@@ -114,7 +128,7 @@ fieldset.grupo .campo{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 
